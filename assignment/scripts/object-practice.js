@@ -33,7 +33,7 @@ console.log(fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-console.log(me.favThreeFoods);
+console.log(me.favThreeFoods[0]);
 console.log(me.favThreeFoods[me.favThreeFoods.length - 1]);
 
 
@@ -56,7 +56,7 @@ console.log(me.shoeCount);
   - Console.log your object
 */
 
-//adds a favorite color variable to me object
+//adds a new favoritecolor variable to me object
 me.favoriteColor = `blue`
 
 console.log(me.favoriteColor);
